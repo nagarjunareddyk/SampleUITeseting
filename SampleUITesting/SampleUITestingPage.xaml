@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:SampleUITesting" x:Class="SampleUITesting.SampleUITestingPage">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+        <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" Margin="20,70,20,20"/>
+        <Button Clicked="Handle_Clicked" Text="Click Me" TextColor="White" BackgroundColor="Red" Margin="20,80,20,20" VerticalOptions="Center" HeightRequest="40" WidthRequest="40" />
+    </StackLayout>
+</ContentPage>
